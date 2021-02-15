@@ -1,0 +1,41 @@
+body {
+	font-family: "Source Sans Pro", "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+a:link, a:visited {
+	color: #00cc00;
+}
+a:hover, a:active {
+	color: white;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+y {
+	color: #00cc00;
+}
+ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	zoom:1;
+	*display: inline;
+}
+.Kutu {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: 1px solid white;
+	width: 500px;
+	height 250px;
+	padding: 50px;
+	margin: 0;
+	border-radius: 15px;
+}
