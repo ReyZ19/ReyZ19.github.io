@@ -13,7 +13,7 @@ body {
 	transform: translate(-50%, -50%);
 }
 a:link, a:visited {
-	color: #00cc00;
+	color: cornflowerblue;
 }
 a:hover, a:active {
 	color: white;
@@ -21,7 +21,7 @@ a:hover, a:active {
 	text-decoration-color: white;
 }
 y {
-	color: #00cc00;
+	color: cornflowerblue;
 }
 ul {
 	display: inline-block;
