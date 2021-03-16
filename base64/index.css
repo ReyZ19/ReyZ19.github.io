@@ -9,24 +9,19 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 5%;
-	/*-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);*/
 }
 h1 {
     color:cornflowerblue;
     font-family:unset;
 }
 button {
-    background-color: #505050; /* Green */
+    background-color: #505050;
     border: none;
     color: white;
-    /*padding: 20px;*/
     padding: 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    /*font-size: 16px;
-    margin: 4px 2px;*/
     border-radius: 4px;
     cursor: pointer;
     color: white;
@@ -38,4 +33,15 @@ input {
     font-family: monospace;
     border-radius: 4px;
     padding: 5px;
+}
+a:link, a:visited {
+	color: cornflowerblue;
+}
+a:hover, a:active {
+	color: white;
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+y {
+	color: cornflowerblue;
 }
