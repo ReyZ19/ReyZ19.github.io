@@ -5,7 +5,7 @@ function enCode() {
     alert(`Encode Result: ` + result)
 }
 
-//Decode
+// Decode
 function deCode() {
     var x = document.getElementById("deText").value;
     var result = atob(x)
