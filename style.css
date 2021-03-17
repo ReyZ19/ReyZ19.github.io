@@ -12,17 +12,21 @@ body {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+
 a:link, a:visited {
 	color: cornflowerblue;
 }
+
 a:hover, a:active {
 	color: white;
 	text-decoration: underline;
 	text-decoration-color: white;
 }
+
 y {
 	color: cornflowerblue;
 }
+
 ul {
 	display: inline-block;
 	margin: 0;
@@ -30,6 +34,7 @@ ul {
 	zoom:1;
 	*display: inline;
 }
+
 .Kutu {
 	background-color: rgba(0, 0, 0, 0.5);
 	border: 1px solid white;
