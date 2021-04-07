@@ -12,18 +12,19 @@
                        ░ ░        ░        
 */
 body {
-	font-family: "Source Sans Pro", "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
 	background-image: url("https://hddesktopwallpapers.in/wp-content/uploads/2015/09/cat-blue-eyes.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+}
+.br {
+    font-family: "Source Sans Pro", "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: white;
 	margin: 0;
 	position: absolute;
 	top: 50%;
 	left: 5%;
 }
-
 h1 {
     color:cornflowerblue;
     font-family:unset;
