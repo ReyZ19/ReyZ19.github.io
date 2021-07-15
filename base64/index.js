@@ -15,25 +15,25 @@
 function enCode() {
     var x = document.getElementById("enText").value;
     try {
-     console.log("Encode Result: " + btoa(x));
+     document.getElementById("deText").style = "background-color: cornflowerblue;";
      document.getElementById("deText").value = btoa(x);
     }
     catch(err) {
+     document.getElementById("deText").style = "background-color: brown;";
      document.getElementById("deText").value = "Error!";
     }
-    document.getElementById("deText").style = "background-color: cornflowerblue;";
     setTimeout(() => { document.getElementById("deText").style = "background-color: #cccccc;" }, 2000);
 }
 // Decode
 function deCode() {
     var x = document.getElementById("deText").value;
     try {
-     console.log("Decode Result: " + atob(x));
+     document.getElementById("deText").style = "background-color: cornflowerblue;";
      document.getElementById("enText").value = atob(x);
     }
     catch(err) {
+     document.getElementById("deText").style = "background-color: brown;";
      document.getElementById("enText").value = "Error!";
     }
-    document.getElementById("enText").style = "background-color: cornflowerblue;";
     setTimeout(() => { document.getElementById("enText").style = "background-color: #cccccc;" }, 2000);
 }
