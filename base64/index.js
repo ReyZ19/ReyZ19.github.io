@@ -28,11 +28,11 @@ function enCode() {
 function deCode() {
     var x = document.getElementById("deText").value;
     try {
-     document.getElementById("deText").style = "background-color: cornflowerblue;";
+     document.getElementById("enText").style = "background-color: cornflowerblue;";
      document.getElementById("enText").value = atob(x);
     }
     catch(err) {
-     document.getElementById("deText").style = "background-color: brown;";
+     document.getElementById("enText").style = "background-color: brown;";
      document.getElementById("enText").value = "Error!";
     }
     setTimeout(() => { document.getElementById("enText").style = "background-color: #cccccc;" }, 2000);
